@@ -1,3 +1,9 @@
+class Person {
+    name : string;
+    constructor(name: string){
+        this.name = name;
+    }
+}
 class Stack<T>{
     private array : T[];
 
@@ -22,7 +28,8 @@ class Stack<T>{
     }
 }
 
-let c1 = new Stack<number>();
-c1.push(1);
-c1.push(2);
+let c1 = new Stack<Person>();
+c1.push(new Person("Lakshmi"));
+c1.push(new Person("Drishit"));
+
 c1.display();
