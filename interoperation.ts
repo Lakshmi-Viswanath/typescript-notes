@@ -1,3 +1,7 @@
+/* one object can be allocated to another. 
+it can be done only if the object that is gettig assigned is a 
+subset of it.
+*/
 let schoolName : "DPS" | "DAV" = "DPS";
 let another: string = "KV";
 

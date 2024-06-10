@@ -4,7 +4,7 @@ console.log(dob.getDate());
 
 /*
 1. type checking will be escaped if any is used in typescrip
-2. varaible very similar to JD variable use any
+2. variable very similar to JS variable use any
 3. any type of variable can be created with any or 
 dont assign it to any value.
 */
